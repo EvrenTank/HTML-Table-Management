@@ -1,0 +1,20 @@
+tr td{
+  color:black;
+}
+tr th {
+  text-align: left;
+}
+div{
+  width: 20%;
+  height: 20vw;
+  border: 2px solid red;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility:hidden;
+}
+
+tr:nth-child(2n){
+  background-color: yellow;
+}
